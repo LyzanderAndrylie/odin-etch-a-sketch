@@ -6,7 +6,7 @@ This project is created to practice coding with JavaScript.
 
 Check out here! :smile:
 
-TBA
+:link: <https://lyzanderandrylie.github.io/odin-etch-a-sketch/>
 
 ## Requirements
 
@@ -17,3 +17,6 @@ To check out full requirements, click the links below.
 ## Note
 
 List of resources that helped me to create this project:
+
+- [aspect-ratio](https://css-tricks.com/almanac/properties/a/aspect-ratio/)
+- [How to generate a random color in JavaScript](https://www.educative.io/answers/how-to-generate-a-random-color-in-javascript)

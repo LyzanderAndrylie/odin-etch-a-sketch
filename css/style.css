@@ -25,7 +25,7 @@ h1 {
 }
 
 #etch-a-sketch {
-    width: 80vw;
+    max-width: 750px;
     padding: 24px;
     margin: 8px;
     border-radius: 24px;
@@ -34,10 +34,21 @@ h1 {
 }
 
 #sketch-pad {
-    height: 60vh;
     background-color: white;
-    border-radius: 24px;
-    margin-bottom: 16px;
+    margin: 0 auto 16px;
+    aspect-ratio: 1 / 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.square-row {
+    display: flex;
+    flex: 1;
+}
+
+.square-row > div {
+    flex: 1;
 }
 
 #buttons {
@@ -81,6 +92,12 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 
+#control-squares {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 button {
     padding: 8px;
     border-radius: 24px;
@@ -95,6 +112,11 @@ button {
 
 button:hover {
     background-color: #ffe2c0;
+}
+
+#reset-sketch {
+    background: linear-gradient(to right, #e53935, #e35d5b);
+    color: white;
 }
 
 .selected {
